@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+body main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+}
+div {
+  background: linear-gradient(to bottom, rgb(33, 173, 228), rgb(148, 175, 189));
+  height: 30vh;
+  width: 100vw;
+}
+div .container-info {
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div .container-info h1 {
+  font-size: 5rem;
+  color: rgba(44, 44, 44, 0.863);
+}/*# sourceMappingURL=stylesheet.css.map */
