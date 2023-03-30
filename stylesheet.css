@@ -17,7 +17,7 @@ body main {
   src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 }
 .title {
-  background: linear-gradient(to bottom, rgb(33, 173, 228), rgb(148, 175, 189));
+  background: rgb(0, 140, 255);
   height: 30vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body main {
 }
 .title .container-info h1 {
   font-size: 5rem;
-  color: rgba(44, 44, 44, 0.863);
+  color: rgb(255, 255, 255);
 }
 
 .container-search {
@@ -40,13 +40,28 @@ body main {
 }
 
 div.wrapper-search {
-  justify-content: center;
+  display: flex;
+  align-self: center;
+  height: 75px;
+  width: 600px;
+}
+div.wrapper-search form,
+div.wrapper-search input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: lightgrey;
+  border: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 div.wrapper-search .searchbox {
-  height: 100%;
-  width: 100%;
+  padding-left: 30px;
   font-family: "Inter", sans-serif;
-  font-size: 12pt;
+  font-size: 16pt;
 }
 
 .wrapper-filter {
