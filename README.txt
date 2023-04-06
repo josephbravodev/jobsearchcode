@@ -1,0 +1,1 @@
+Site is unfortunately non-functional due to the fetch being blocked by linkedin.
